@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Sender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Message Sender</h1>
+    </header>
+    <main>
+        <section id="form-section">
+            <h2>Enter Details</h2>
+            <form id="message-form">
+                <label for="mobile-number">Mobile Number:</label>
+                <input type="tel" id="mobile-number" name="mobile-number" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <label for="times">Number of Times to Send:</label>
+                <input type="number" id="times" name="times" min="1" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="confirmation-section" style="display: none;">
+            <h2>Confirm Details</h2>
+            <p id="confirm-details"></p>
+            <button id="confirm-button">Confirm</button>
+            <button id="edit-button">Edit</button>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+    <script src="textlocal.js"></script>
+</body>
+</html>
