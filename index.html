@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Usage Tracker</title>
+    <link rel="stylesheet" href="pro-1x.css">
+</head>
+<body>
+    <header>
+        <h1>Mobile Usage Tracker</h1>
+    </header>
+    <main>
+        <section id="usage-form">
+            <h2>Enter Your Mobile Usage</h2>
+            <form id="usage-data-form">
+                <label for="usage-time">Daily Usage Time (hours):</label>
+                <input type="number" id="usage-time" name="usage-time" required>
+                <label for="productive-time">Productive Time (hours):</label>
+                <input type="number" id="productive-time" name="productive-time" required>
+                <label for="waste-time">Time Wasted (hours):</label>
+                <input type="number" id="waste-time" name="waste-time" required>
+                <button type="submit">Submit</button>
+            </form>
+            <p id="alert-message"></p>
+        </section>
+    </main>
+    <script src="script.jsx"></script>
+</body>
+</html>
