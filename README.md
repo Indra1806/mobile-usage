@@ -15,5 +15,5 @@ To set up this project, follow these steps:
 
 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/your-username/SmartPhone-Productivity-Tracker.git
+https://github.com/Indra1806/mobile-usage.git
 cd SmartPhone-Productivity-Tracker
